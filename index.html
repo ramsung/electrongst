@@ -3,26 +3,41 @@
 <head>
 <title>GST Software by BEYONITY SOFTWARES</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8" />
 
-<link rel="stylesheet" href="css/body.css">
-<link rel="stylesheet" href="css/menu.css">
-<script src="/js/menucontent.js"></script>
+<link rel="stylesheet" href="css/main.css">
+
+
+<link rel="import" href="sections/biller.html">
+<link rel="import" href="sections/product.html">
+<link rel="import" href="sections/customer.html">
+<link rel="import" href="sections/about.html">
 </head>
 <body>
-    <div class="header">
-        <nav>
-        <ul class="nav">
+    <!-- Sidebar -->
+    <section id="sidebar">
+        <div class="pane-group">
+            <div class="pane-mini sidebar">...</div>
+            <div class="pane">
             
-            <li><a href="index.html" class="active">Biller</a></li>
-            <li><a href="vcust.html">View Customer</a></li>
-            <li><a href="ncust.html">New Customer</a></li>
-            <li><a href="nprod.html">New Product</a></li>
-            <li><a href="ninv.html">New Invoice</a></li>
-            <li><a href="vbill.html">View Bill</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
-        </nav>
-    </div>
+                <ul>
+                    <li>
+                        <a data-section="biller" href="#">Biller</a>
+                    </li>
+                    <li>
+                        <a data-section="customer" href="#">Customer</a>
+                    </li>
+                    <li>
+                        <a data-section="product" href="#">Product</a>
+                    </li>
+                    <li>
+                        <a data-section="about" href="#">About</a>
+                    </li>
+                </ul>
+          
+        </div>
+        </div>
+    </section>
 
 </body>
 
